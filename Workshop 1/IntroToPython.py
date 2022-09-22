@@ -27,8 +27,8 @@ for element in b[0]:
 
 # Pandas library: super useful
 import pandas as pd
-csv = pd.read_csv('/content/financial_data_sp500_companies_1.csv')
-xlsx = pd.read_excel('/content/financial_data_sp500_companies_final.xlsx')
+csv = pd.read_csv('financial_data_sp500_companies_1.csv')
+xlsx = pd.read_excel('financial_data_sp500_companies_final.xlsx')
 
 # Allows to see first 5 rows
 csv.head()
